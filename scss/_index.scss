@@ -1,0 +1,302 @@
+.row {
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0;
+}
+input:focus{
+    outline: none;
+}
+a{
+    text-decoration:none;
+}
+.img100{
+    width: 100%;
+}
+.margin0Auto{
+    margin:0 auto;
+}
+.logo{
+    width: 100%;
+    height: 40px;
+}
+.container{
+    padding:30px 0 0 0;
+    max-width:940px;
+}
+.header{
+    width: 100%;
+
+    .smImg{
+        img{
+            width: 50%; 
+        }
+    }
+    padding: 0px;
+    height:40px;
+    @include ipad{
+        padding: 0 32px;
+    }
+}
+.bg{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin:0 auto;
+    object-fit: contain;
+}
+.bgTop{
+    top:-88px;
+    @include ipad{
+        top:0px;       
+    }
+}
+.card{
+    width: 100%;
+    border-radius: 0;
+    height:256px;  
+    outline:0.5px solid white;
+    line-height: 50px;
+    &:hover{
+        background-color: #FFE180 !important;
+
+    }
+}
+.cardHover:hover{
+    color: #3F5D45;
+    font-weight: bold;
+}
+.verticleText-rl{
+    writing-mode: vertical-rl ;
+}
+.horizonText-rl{
+    writing-mode: vertical-rl ;
+    @include ipad{
+        writing-mode:horizontal-tb ;
+    } 
+}
+
+.card-text{
+    width: 260px;
+    height: 256px;
+    font: normal normal 300 24px/50px PingFang TC;
+    color:white;
+    line-height: 260px;
+    letter-spacing: 10px;
+}
+.card2{
+    height: 460px;
+    @include ipad{
+        height: auto;  
+    } 
+    margin-top: -28px;
+    @include ipad{
+        margin-top: 0px;        
+    }
+    .imgR{
+        width: 89px;
+        @include ipad{
+            width: 196px;
+        }
+    }
+    .imgL{
+        height: 460px;
+    }
+    p{
+        font: normal normal 300 16px/16px PingFang TC;
+        color: #8DA291;
+        line-height: 32px;
+        margin-top:110px;
+        @include ipad{
+            font: normal normal 300 16px/32px PingFang TC;
+            margin-top:0px;                      
+        }
+    }
+    .p1{
+
+        height:280px;
+        @include ipad{
+            max-width: 315px;
+            height:150px                     
+        } 
+    }
+    .p2{
+        height:280px;   
+        @include ipad{
+            max-width: 315px;
+            height:60px                     
+        } 
+    }
+}
+.sm-SW10{
+    img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+}
+.cardPosition{
+    top:516px;
+    left:120px;
+}
+.card2BG1{
+    background:#EAF0ED;
+    width: 100%;
+    height: 420px;
+    position:absolute;
+    top:850px;
+    @include ipad{
+        height: 350px;  
+        top:914px;   
+    }
+    z-index:-1;
+
+}
+.card2BG2{
+    background:#EAF0ED;
+    width: 100%;
+    height: 420px;
+    position:absolute;
+    top:1370px;
+    @include ipad{
+        height: 350px;     
+        top:1616px;
+    }
+    z-index:-1;
+    
+}
+
+.noReason{ 
+    width: 90px;
+    @include ipad{
+        width: 226px;
+        margin:0 auto;
+        object-fit: contain;
+    }
+    margin:0 auto;
+}
+.producName{
+    font: normal normal 600 20px/24px PingFang TC;
+    border:1px solid #EAF0ED;
+}
+.producPrice{
+    font: normal normal 600 20px/24px PingFang TC;
+    border:1px solid #EAF0ED;
+    border-left-width: 0px;
+}
+.card3{
+    max-width: 300px;
+    h3{
+        font: normal normal 700 24px/20px PingFang TC;
+    }
+    p{
+        font: normal normal 600 16px/20px PingFang TC;
+        letter-spacing: 5px;
+    }
+}
+.imgBottom{
+    vertical-align: bottom;
+}
+.producDec{
+    width: 36px;
+    height: 106px;
+}
+
+.btn-grpup{
+    width: 100%;
+}
+.icon{
+    img{
+        width: 24px;
+        height: 24px;
+    }
+}
+.footer2{
+    margin:0 auto;
+    max-width: 940px;
+    padding:39px 0 39px 0;
+    height: 341px;
+    @include ipad{
+        height: 311px;
+    }
+
+    img{
+        width: 171.22px;
+    }
+    p{
+        font: normal normal normal 16px/24px Helvetica Neue;
+        
+    }
+    .icon{
+        width: 32px;
+        height:32px;
+    }
+    .text-sm{
+        width: 60px;
+    }
+    .right{
+        p{
+            margin-top:36px;
+        }
+    }
+}
+.footerMt{
+    margin-top: 115.15px;
+    @include ipad{
+        margin-top: 39.5px;        
+    }
+}
+.footerWidth{
+    max-width: 940px;
+}
+.footer1{
+    margin:0 auto;
+    max-width: 940px;
+    padding:30px 0;
+    height: 116px;
+    @include ipad{
+        height: 186px;     
+    }
+    img{
+        width: 40px;
+    }
+    p{
+        font: normal normal normal 24px/29px Helvetica Neue;
+    }
+    .btn-group{
+        width: 380px;
+        height: 56px;
+        border: 0;
+        @include ipad{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .mail{
+            img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+        input{
+            width: 100%;
+            height: 100%;
+            border: 0;
+            padding:0 ;
+        }
+        button{
+ 
+            border: 0;
+            padding:0 ;
+            bottom: 0;
+            height: 56px;
+            width: 64px;
+            object-fit:fill;
+            img{
+                height: 24px;
+                max-width: 24px;
+                object-fit: contain;
+            }
+        }
+        
+    }
+}
+
+

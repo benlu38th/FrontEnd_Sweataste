@@ -1,0 +1,97 @@
+.shipping{
+    max-width:940px;
+    margin: 60px auto 0;
+    @include ipad{
+        margin: 0;
+    }
+}
+.shippingRight{
+   .green{
+    height: 512px;
+    padding: 30px 40px;
+    @include ipad{
+        padding: 30px 30px;
+    }
+    img{
+        height: 20px;
+    }
+    h2{
+        font: normal normal 600 36px/20px PingFang TC;
+        height: 50px;        
+    }
+   } 
+   label{
+    span{
+        font: normal normal 600 20px/20px PingFang TC;
+    }
+   }
+   input{
+    width:100%;
+    padding: 0;
+    border: 0;
+    margin: 12px 0 0 0;
+    height: 56px; 
+    color:#8DA291;
+    }   
+    input::placeholder{
+    color:#8DA291;    
+    }
+    .input{
+        width: 100%;
+        height: 56px;
+        color:#8DA291;
+        outline: none;
+    }
+    .input:focus{
+        outline: none;
+    }
+    select{
+        border: 0;     
+    }
+    label{
+        width: 100%;
+    }
+}
+.yellow{
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 65px;
+    font: normal normal 600 24px/20px PingFang TC;
+}
+.shippingInfo1{
+    height: 65px;
+    color:#8DA291;
+    font: normal normal 600 24px/20px PingFang TC;
+}
+.shippingInfo2{
+    height: 128px;
+    padding: 0 20px;
+    border: 1px solid #EAF0ED;
+    color:#8DA291;
+    h2{
+        font: normal normal 600 20px/20px PingFang TC;
+    }
+}
+.shippingInfo3{
+    margin:0 auto;
+    padding: 0 5%;
+    border: 1px solid #EAF0ED;
+    img{
+        width: 120px;
+        height: 80px;
+        object-fit: cover;
+    }
+    h3{
+        font: normal normal 300 16px/20px PingFang TC;
+        color:#8DA291;
+    }
+    p{
+        font: normal normal 600 20px/20px PingFang TC;
+        color:#8DA291;
+    }
+}
+.w100{
+    width: 100%;
+}
+

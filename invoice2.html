@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/all.css">
+    <title>郵寄發票</title>
+</head>
+<body>
+     <!-- header -->
+     <div class="container">
+        <div class="header d-flex justify-content-between align-items-center mb-15">
+            <div class="d-md-none"><img src="img/dehaze-24px.png" ></div>
+            <div class="d-none d-md-inline"><img src="img/logo-all-dark.svg" class="logo"></div>
+            <div class="d-inline d-md-none text-center smImg"><img src="img/logotype-sm-dark.svg"  ></div>
+            <div>            
+                <ul class="d-flex justify-content-between align-items-md-center ">
+                    <li class="d-md-inline me-8 fw-bold d-none "> <a href="index.html" >首頁</a></li>
+                    <li class="d-md-inline me-8 fw-bold d-none"><a href="dessert.html" >甜點</a></li>
+                    <li class="d-md-inline me-8 fw-bold d-none"><a href="login.html">登入</a></li>
+                    <li  class="d-inline iconSize"><a href="shoppingCart.html"><img src="img/shopping_cart.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- invoice2 -->      
+    <div class="invoice">
+        <div class="row justify-content-center">
+            <div class="col col-md-6 shippingRight mb-md-2 me-md-3 ">
+                <div class="invoice2Top green bg-primary d-flex flex-column payment paymentRight">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2 class="text-secondary d-flex justify-content-center align-items-center">發票</h2>
+                        <img src="img/bar_invoice.svg">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mt-15">
+                        <a href="invoice.html" class=" bg-primary text-secondary eInvoice d-flex justify-content-center align-items-center "> 電子發票</a>
+                        <p class=" bg-secondary text-primary  eInvoice d-flex justify-content-center align-items-center ">郵寄發票</p>
+                    </div>
+                    <form class="d-flex justify-content-between mt-15 gap-2">
+                        <label for="adress1 ">
+                            <div class="d-flex justify-content-start">
+                                <span class=" text-secondary ">地址</span>
+
+                            </div>
+                            <select name="adress1" id="adress1" class="input  bg-secondary mt-2">
+                                <option value="高雄市" class="input "> &nbsp;&nbsp;&nbsp;高雄市</option>
+                                <option value="高雄市">&nbsp;&nbsp;&nbsp;台北市</option>
+                            </select>
+                        </label>
+                        <label for="adress1 " >
+                            <div class="">
+                                <span class=" text-secondary checkboxText d-flex justify-content-end">
+                                    <label for="checkbox" class="d-flex justify-content-end align-items-center" >
+                                        <input type="checkbox" name="checkbox" id="checkbox" >
+                                        <span >同運送運送地址</span> 
+                                    </label>
+                                </span>
+                            </div>
+                            <select name="adress1" id="adress1" class="input  bg-secondary mt-2">
+                                <option value="新興區">&nbsp;&nbsp;&nbsp;新興區</option>
+                                <option value="新興區">&nbsp;&nbsp;&nbsp;前金區</option>
+                            </select>
+                        </label>
+                    </form>
+                    <form for="adress2 " class="">
+                        <label for="adress2 " class="d-block">
+                            <input type="text" placeholder="幸福路 520 號" class="bg-secondary ps-17" name="phoneNum">
+                        </label>                       
+                    </form>
+                    <label for="mailAccount " class="position-relative  mt-15">
+                        <p class="text-secondary d-flex justify-content-start align-items-center">統一編號（選填）</p>
+                        <div class="mailAccount">
+                            <input type="text" class="bg-secondary ps-17" placeholder="12345678" >
+                       </div>
+                    </label>
+                </div>
+                <a href="finish.html" class="yellow bg-success d-flex justify-content-center align-items-center text-primary">
+                    確認結帳
+                </a>
+            </div>
+            <div class="d-none d-md-block col-4">
+                <div class="bg-secondary shippingInfo1 d-flex justify-content-center align-items-center">
+                    訂單摘要
+                </div>
+                <div class="shippingInfo2">
+                    <ul>
+                        <li class="d-flex justify-content-between mt-3">
+                            <p>小計</p>
+                            <p>NT$ 2,700</p>
+                        </li>
+                        <li class="d-flex justify-content-between mt-3">
+                            <p>運費</p>
+                            <p>NT$ 300</p>
+                        </li>
+                        <h2 class="d-flex justify-content-between mt-4 pb-3">
+                            <p>總計</p>
+                            <p>NT$ 3,000</p>
+                        </h2>
+                    </ul>
+                </div>
+                <div class="bg-secondary shippingInfo1 mt-17 d-flex justify-content-center align-items-center">
+                    購物清單
+                </div>
+                <div class="shippingInfo3">
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <img src="img/p-8.jpg">
+                        <div class="pe-2">
+                            <h3>焦糖馬卡龍（2）</h3>
+                            <p>NT$ 900</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <img src="img/p-5.png">
+                        <div class="pe-2">
+                            <h3>焦糖馬卡龍（2）</h3>
+                            <p>NT$ 900</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mt-3 mb-3">
+                        <img src="img/p-3.png">
+                        <div class="pe-2">
+                            <h3>焦糖馬卡龍（2）</h3>
+                            <p>NT$ 900</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer上半部 -->
+    <div class="bg-primary mt-md-16 ">
+        <div class="footer1 row justify-content-center ps-15 pe-15 ps-md-10 pe-md-10">
+            <div class=" col-12 d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="img/logo-light.svg" class="me-3">
+                    <p class="text-secondary">訂閱你我的甜蜜郵件</p>
+                </div>
+                <div class="bg-secondary btn-group mt-14 mt-md-0 d-flex  justify-content-between " >
+                        <div class="mail ms-3 d-flex align-items-center"><img src="img/mail-24px.png" ></div>
+                        <div><input type="text" class="bg-secondary justify-content-center"></div>
+                        <div><button class="bg-success d-inline"><img src="img/arrow_forward-24px.png"></button></div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer下半部 -->
+    <div class="bg-secondary">
+        <div class="footer2 row justify-content-center ps-15 pe-15 ps-md-10 pe-md-10">
+            <div class=" col-12 d-flex justify-content-between ">
+                <div>
+                    <img src="img/logotype-lg-dark.svg">
+                    <p class="text-primary footerMt">07-12345678</p>
+                    <p class="text-primary">sweetaste@email.com</p>
+                    <p class="text-primary">800 高雄市新興區幸福路 520 號</p>
+                    <img src="img/ic-line@.svg" class="icon mt-4">
+                    <img src="img/ic-facebook.svg" class="icon ms-1">
+                    <p class="d-md-none mt-4 text-primary">© 2018 Sweetaste* All Rights Reserved</p>
+                </div>
+                <div class="d-none d-md-flex  d-flex flex-column justify-content-between align-items-end">
+                    <img src="img/text-sm.svg" class="text-sm ">
+                    <p class="text-primary">© 2018 Sweetaste* All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

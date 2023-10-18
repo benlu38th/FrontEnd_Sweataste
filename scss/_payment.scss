@@ -1,0 +1,29 @@
+
+.payment{
+    p{
+        font: normal normal 600 20px/20px PingFang TC;
+    }
+
+    input{
+        display: inline-block;
+    }
+}
+.cardNum:after{
+    position: absolute;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    font-family: "Font Awesome 6 Free";
+    content: "\f09d";
+    color: #3F5D45;
+    font-weight: 900;
+    top: 60px;
+    right: 22px;
+}
+.dueDate{
+    option{
+        color: black;
+    }
+}
+.last3Num{
+    width: 50%;
+}

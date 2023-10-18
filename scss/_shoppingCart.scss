@@ -1,0 +1,117 @@
+.shoppingCart{
+    max-width: 940px;
+    margin:0 auto;
+    padding-top:60px;
+    @include ipad{
+       padding-top:30px;     
+    }
+}
+.yourCart{
+    height:65px;
+    font: normal normal 600 24px/20px PingFang TC;
+        .subtotal{
+        padding:8.5px 0px;
+    }
+}
+.cartProduct{
+    height: 130px;
+    padding-bottom:20px;
+    @include ipad{
+        padding:30px;
+    }
+    border-bottom: 1px solid #EAF0ED;
+    @include ipad{
+        border-bottom: 0px solid #EAF0ED;
+    }
+    .phoneInfo{
+        height:106px;
+    }
+    img{
+        height: 110px;
+        @include ipad{
+            object-fit:cover;
+            width: 150px;
+            height: 106px;
+        }
+    }
+    h3{
+        font: normal normal 300 20px/20px PingFang TC;
+    }
+    a{
+        width: 48px;
+        height: 48px;
+        outline: 1px solid #EAF0ED;
+        .outline0{
+            outline: 0;
+        }
+    }
+    .price{
+        font: normal normal 600 20px/20px PingFang TC;
+    }
+    button{
+        border: 0;
+        padding: 0;
+        background-color: white;
+    }
+
+}
+.subtotal{
+    padding:8.5px 0px;
+    margin: 0px 30px;
+    font: normal normal 600 20px/20px PingFang TC;
+    border-bottom: 1px solid #EAF0ED;
+    border-top: 1px solid #EAF0ED;
+}
+.border0{
+    border: 0;
+}
+.shoppingCartRightBG1{
+    background-color: #3F5D45;
+    @include ipad{
+        margin: 0px 30px;    
+        background-color: white;
+    }
+}
+.shoppingCartRightBG2{
+    background-color: #3F5D45;
+    @include ipad{
+        background-color: #EAF0ED;
+    }
+}
+.shoppingCartRightBG3{
+    background-color: #3F5D45;
+    @include ipad{
+        background-color: white;
+    }
+}
+.shoppingCartRight1{
+    color:#EAF0ED;
+    @include ipad{
+        color:#3F5D45;
+    }
+    max-width: 260px;
+    @include ipad{
+        max-width: 100%;
+    }
+    margin:0 auto;
+    h1{
+        height:65px;
+        font: normal normal 600 24px/20px PingFang TC;
+        border-bottom: 1px solid #EAF0ED;
+
+    }
+    li{
+        p{
+            font: normal normal 300 16px/20px PingFang TC;
+        }
+    }
+    h2{
+        p{
+            font: normal normal 600 20px/20px PingFang TC;
+        }
+    }
+}
+.shoppingCartRight2{
+    font: normal normal 600 24px/20px PingFang TC; 
+    height:65px;
+}

@@ -1,0 +1,42 @@
+.invoice{
+    .eInvoice{
+        width: 100%;
+        height: 56px;
+        padding:14px 0;
+        margin:0 auto;
+        text-align:center;
+        border: 1px solid #EAF0ED;
+        font: normal normal 600 20px/20px PingFang TC;
+    }
+    .mailInvoice{
+        width: 100%;
+        height: 56px;
+        text-align:center;
+        border: 1px solid #EAF0ED;
+        font: normal normal 600 20px/20px PingFang TC;
+    }
+}
+
+.invoice2Top{
+    height: 490px !important;
+
+    .checkboxText{
+        text-align: right;
+        padding-top: 2px;
+        height: 20px; 
+        span{
+            font: normal normal 600 15px/14px PingFang TC;
+        }    
+        input{
+            height: 16px;
+            margin:0;
+            width: 20px;
+        }
+    }
+}
+.invoice .shippingRight .green{
+    height:auto;
+}
+.invoiceHeight{
+    height: 470px !important;
+}
